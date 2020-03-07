@@ -1,0 +1,2278 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: External_Tool IPMA_ADAS MRR TSTR
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ TesterFunctionalReq : 0|64@0+ (1,0) [0|1.84467E+019] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED_CALC : 0|14@0+ (0.01,0) [0|100] "m/s" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED_CALC_QF : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_VEH_SPD_COMP_FACTOR : 0|16@0+ (3.0517578125E-006,0.9) [0.9|1.09999694824219] "" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE_BIAS : 0|10@0+ (0.03125,-16) [-16|15.96875] "deg/s" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE_CALC : 0|13@0+ (0.03125,-100) [-100|100] "deg/s" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE_CALC_QF : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_PCAN_MAJOR_ADAS_HOST : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_PCAN_MINOR_ADAS_HOST : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_f_Radar_Unreasonable : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ARMtoDSPChksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ARMtoHostChksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte0_bit3 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte0_bit4 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte0_bit5 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte0_bit6 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte1_bit1 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte1_bit6 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte1_bit7 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte2_bit2 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte2_bit3 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte2_bit4 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte2_bit5 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte2_bit6 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte3_bit4 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte5_bit1 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte5_bit6 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte5_bit7 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte6_bit0 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte6_bit5 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte7_bit4 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte7_bit5 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte7_bit6 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_Active_Flt_Latch_byte7_bit7 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_AlignmentRoutineFailedFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_AnalogConverterDevicSPIFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ApplicationFlashChksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_DSPOverrunFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_DSPtoArmChksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ECUTempHighFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_FactoryAlignmentMode : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_FreqSynthesizerSPIFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_HorizontalAlignmentOutOfRnge : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_HostToArmChksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_InstructionSetCheckFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_KeepAliveChecksumFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_LocalOscPowerFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_LoopBWOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_MNRBlocked : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_MicroprocessorTempHighFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_PCANBusOff : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_PCANMissingMsgFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_PLLLockFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ProgramCalibrationFlshChksum : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_RAMMemoryTestFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_SaturatedTuningFreqFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_SidelobeBlockage : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_StackOverflowFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_TransmitterIDFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_TransmitterPowerFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_TransmitterTempHighFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_TuningSensitivityFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_USCValidationFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_UnreasonableRadarData : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_VerticalAlignmentOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_WatchdogFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_XCVRDeviceSPIFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_BatteryHighFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_BatteryLowFault : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CarCfgNotConfiguredError : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_IPMA_PCAN_DataRangeCheck : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_IPMA_PCAN_MissingMsg : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ModuleNotConfiguredError : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_ThermistorOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_VINSignalCompareFailure : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_1p1_SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_1p25SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_1p8_SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_2p3_SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_5_SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_FAC_ALIGN_CMD_1 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_FAC_ALIGN_CMD_2 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_FAC_ALIGN_CMD_3 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_FORCE_AUTOALIGN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DESIRED_SWEEP_BW_FRLL : 0|8@0+ (10,50) [50|2600] "MHz" Vector__XXX
+ SG_ MRR_CAN_DESIRED_SWEEP_BW_FRML : 0|8@0+ (10,50) [50|2600] "MHz" Vector__XXX
+ SG_ MRR_CAN_PRP_FACTOR_FRLL : 0|9@0+ (0.1,0) [0|51.1] "us" Vector__XXX
+ SG_ MRR_CAN_PRP_FACTOR_FRML : 0|9@0+ (0.1,0) [0|51.1] "us" Vector__XXX
+ SG_ MRR_CAN_SENSITIVITY_PROFILE_SLCT : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_STOP_FREQUENCY_FRLL : 0|10@0+ (5,76000) [76000|81115] "MHz" Vector__XXX
+ SG_ MRR_CAN_STOP_FREQUENCY_FRML : 0|10@0+ (5,76000) [76000|81115] "MHz" Vector__XXX
+ SG_ MRR_CAN_DESIRED_SWEEP_BW_NRLL : 0|8@0+ (10,50) [50|2600] "MHz" Vector__XXX
+ SG_ MRR_CAN_DESIRED_SWEEP_BW_NRML : 0|8@0+ (10,50) [50|2600] "MHz" Vector__XXX
+ SG_ MRR_CAN_PRP_FACTOR_NRLL : 0|9@0+ (0.1,0) [0|51.1] "us" Vector__XXX
+ SG_ MRR_CAN_PRP_FACTOR_NRML : 0|9@0+ (0.1,0) [0|51.1] "us" Vector__XXX
+ SG_ MRR_CAN_RADIATION_CTRL : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_STOP_FREQUENCY_NRLL : 0|10@0+ (5,76000) [76000|81115] "MHz" Vector__XXX
+ SG_ MRR_CAN_STOP_FREQUENCY_NRML : 0|10@0+ (5,76000) [76000|81115] "MHz" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_17 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_17 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_17 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_17 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_17 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_17 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_17 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_17 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_17 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_17 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_17 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_18 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_18 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_18 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_18 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_18 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_18 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_18 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_18 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_18 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_18 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_18 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_19 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_19 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_19 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_19 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_19 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_19 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_19 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_19 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_19 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_19 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_19 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_20 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_20 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_20 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_20 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_20 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_20 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_20 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_20 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_20 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_20 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_20 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_21 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_21 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_21 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_21 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_21 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_21 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_21 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_21 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_21 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_21 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_21 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_22 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_22 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_22 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_22 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_22 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_22 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_22 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_22 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_22 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_22 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_22 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_23 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_23 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_23 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_23 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_23 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_23 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_23 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_23 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_23 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_23 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_23 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_24 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_24 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_24 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_24 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_24 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_24 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_24 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_24 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_24 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_24 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_24 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_25 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_25 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_25 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_25 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_25 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_25 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_25 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_25 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_25 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_25 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_25 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_26 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_26 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_26 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_26 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_26 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_26 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_26 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_26 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_26 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_26 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_26 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_27 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_27 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_27 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_27 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_27 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_27 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_27 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_27 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_27 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_27 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_27 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_28 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_28 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_28 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_28 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_28 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_28 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_28 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_28 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_28 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_28 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_28 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_29 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_29 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_29 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_29 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_29 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_29 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_29 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_29 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_29 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_29 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_29 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_30 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_30 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_30 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_30 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_30 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_30 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_30 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_30 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_30 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_30 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_30 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_31 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_31 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_31 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_31 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_31 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_31 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_31 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_31 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_31 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_31 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_31 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_32 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_32 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_32 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_32 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_32 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_32 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_32 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_32 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_32 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_32 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_32 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_33 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_33 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_33 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_33 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_33 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_33 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_33 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_33 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_33 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_33 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_33 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_34 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_34 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_34 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_34 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_34 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_34 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_34 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_34 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_34 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_34 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_34 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_35 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_35 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_35 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_35 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_35 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_35 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_35 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_35 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_35 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_35 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_35 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_36 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_36 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_36 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_36 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_36 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_36 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_36 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_36 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_36 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_36 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_36 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_37 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_37 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_37 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_37 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_37 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_37 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_37 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_37 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_37 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_37 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_37 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_38 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_38 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_38 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_38 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_38 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_38 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_38 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_38 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_38 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_38 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_38 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_39 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_39 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_39 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_39 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_39 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_39 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_39 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_39 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_39 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_39 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_39 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_40 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_40 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_40 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_40 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_40 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_40 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_40 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_40 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_40 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_40 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_40 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_41 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_41 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_41 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_41 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_41 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_41 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_41 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_41 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_41 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_41 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_41 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_42 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_42 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_42 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_42 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_42 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_42 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_42 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_42 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_42 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_42 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_42 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_43 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_43 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_43 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_43 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_43 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_43 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_43 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_43 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_43 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_43 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_43 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_44 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_44 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_44 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_44 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_44 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_44 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_44 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_44 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_44 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_44 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_44 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_45 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_45 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_45 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_45 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_45 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_45 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_45 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_45 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_45 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_45 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_45 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_46 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_46 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_46 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_46 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_46 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_46 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_46 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_46 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_46 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_46 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_46 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_47 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_47 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_47 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_47 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_47 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_47 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_47 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_47 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_47 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_47 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_47 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_48 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_48 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_48 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_48 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_48 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_48 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_48 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_48 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_48 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_48 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_48 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_49 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_49 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_49 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_49 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_49 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_49 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_49 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_49 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_49 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_49 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_49 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_50 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_50 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_50 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_50 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_50 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_50 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_50 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_50 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_50 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_50 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_50 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_51 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_51 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_51 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_51 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_51 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_51 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_51 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_51 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_51 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_51 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_51 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_52 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_52 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_52 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_52 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_52 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_52 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_52 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_52 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_52 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_52 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_52 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_53 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_53 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_53 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_53 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_53 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_53 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_53 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_53 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_53 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_53 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_53 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_54 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_54 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_54 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_54 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_54 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_54 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_54 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_54 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_54 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_54 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_54 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_55 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_55 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_55 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_55 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_55 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_55 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_55 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_55 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_55 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_55 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_55 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_56 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_56 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_56 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_56 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_56 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_56 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_56 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_56 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_56 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_56 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_56 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_57 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_57 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_57 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_57 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_57 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_57 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_57 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_57 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_57 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_57 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_57 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_58 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_58 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_58 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_58 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_58 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_58 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_58 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_58 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_58 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_58 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_58 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_59 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_59 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_59 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_59 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_59 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_59 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_59 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_59 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_59 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_59 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_59 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_60 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_60 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_60 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_60 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_60 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_60 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_60 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_60 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_60 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_60 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_60 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_61 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_61 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_61 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_61 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_61 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_61 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_61 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_61 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_61 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_61 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_61 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_62 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_62 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_62 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_62 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_62 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_62 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_62 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_62 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_62 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_62 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_62 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_63 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_63 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_63 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_63 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_63 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_63 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_63 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_63 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_63 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_63 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_63 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_64 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_64 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_64 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_64 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_64 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_64 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_64 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_64 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_64 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_64 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_64 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_65 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_65 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_65 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_65 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_65 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_65 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_65 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_65 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_65 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_65 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_65 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_66 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_66 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_66 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_66 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_66 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_66 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_66 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_66 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_66 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_66 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_66 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_67 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_67 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_67 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_67 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_67 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_67 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_67 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_67 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_67 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_67 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_67 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_68 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_68 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_68 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_68 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_68 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_68 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_68 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_68 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_68 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_68 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_68 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_69 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_69 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_69 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_69 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_69 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_69 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_69 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_69 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_69 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_69 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_69 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_70 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_70 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_70 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_70 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_70 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_70 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_70 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_70 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_70 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_70 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_70 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_71 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_71 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_71 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_71 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_71 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_71 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_71 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_71 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_71 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_71 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_71 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_72 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_72 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_72 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_72 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_72 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_72 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_72 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_72 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_72 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_72 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_72 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_73 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_73 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_73 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_73 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_73 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_73 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_73 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_73 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_73 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_73 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_73 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_74 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_74 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_74 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_74 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_74 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_74 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_74 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_74 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_74 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_74 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_74 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_75 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_75 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_75 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_75 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_75 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_75 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_75 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_75 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_75 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_75 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_75 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_76 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_76 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_76 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_76 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_76 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_76 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_76 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_76 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_76 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_76 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_76 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_77 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_77 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_77 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_77 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_77 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_77 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_77 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_77 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_77 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_77 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_77 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_78 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_78 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_78 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_78 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_78 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_78 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_78 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_78 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_78 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_78 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_78 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_79 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_79 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_79 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_79 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_79 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_79 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_79 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_79 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_79 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_79 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_79 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_80 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_80 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_80 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_80 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_80 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_80 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_80 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_80 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_80 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_80 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_80 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_81 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_81 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_81 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_81 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_81 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_81 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_81 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_81 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_81 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_81 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_81 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_82 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_82 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_82 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_82 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_82 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_82 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_82 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_82 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_82 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_82 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_82 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_83 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_83 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_83 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_83 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_83 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_83 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_83 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_83 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_83 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_83 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_83 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_84 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_84 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_84 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_84 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_84 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_84 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_84 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_84 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_84 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_84 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_84 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_85 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_85 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_85 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_85 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_85 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_85 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_85 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_85 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_85 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_85 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_85 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_86 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_86 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_86 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_86 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_86 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_86 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_86 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_86 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_86 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_86 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_86 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_87 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_87 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_87 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_87 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_87 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_87 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_87 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_87 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_87 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_87 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_87 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_88 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_88 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_88 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_88 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_88 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_88 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_88 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_88 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_88 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_88 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_88 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_89 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_89 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_89 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_89 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_89 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_89 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_89 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_89 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_89 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_89 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_89 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_90 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_90 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_90 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_90 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_90 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_90 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_90 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_90 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_90 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_90 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_90 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_91 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_91 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_91 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_91 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_91 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_91 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_91 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_91 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_91 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_91 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_91 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_92 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_92 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_92 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_92 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_92 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_92 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_92 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_92 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_92 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_92 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_92 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_93 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_93 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_93 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_93 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_93 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_93 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_93 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_93 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_93 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_93 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_93 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_94 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_94 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_94 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_94 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_94 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_94 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_94 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_94 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_94 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_94 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_94 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_95 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_95 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_95 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_95 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_95 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_95 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_95 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_95 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_95 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_95 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_95 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_96 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_96 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_96 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_96 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_96 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_96 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_96 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_96 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_96 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_96 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_96 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_97 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_97 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_97 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_97 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_97 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_97 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_97 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_97 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_97 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_97 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_97 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_98 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_98 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_98 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_98 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_98 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_98 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_98 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_98 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_98 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_98 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_98 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_99 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_99 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_99 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_99 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_99 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_99 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_99 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_99 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_99 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_99 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_99 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_100 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_100 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_100 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_100 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_100 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_100 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_100 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_100 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_100 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_100 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_100 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_101 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_101 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_101 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_101 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_101 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_101 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_101 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_101 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_101 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_101 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_101 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_102 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_102 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_102 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_102 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_102 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_102 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_102 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_102 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_102 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_102 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_102 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_103 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_103 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_103 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_103 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_103 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_103 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_103 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_103 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_103 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_103 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_103 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_104 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_104 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_104 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_104 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_104 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_104 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_104 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_104 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_104 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_104 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_104 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_105 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_105 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_105 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_105 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_105 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_105 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_105 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_105 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_105 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_105 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_105 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_106 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_106 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_106 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_106 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_106 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_106 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_106 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_106 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_106 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_106 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_106 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_107 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_107 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_107 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_107 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_107 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_107 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_107 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_107 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_107 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_107 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_107 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_108 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_108 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_108 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_108 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_108 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_108 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_108 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_108 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_108 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_108 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_108 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_109 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_109 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_109 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_109 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_109 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_109 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_109 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_109 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_109 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_109 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_109 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_110 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_110 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_110 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_110 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_110 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_110 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_110 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_110 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_110 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_110 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_110 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_111 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_111 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_111 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_111 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_111 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_111 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_111 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_111 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_111 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_111 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_111 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_112 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_112 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_112 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_112 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_112 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_112 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_112 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_112 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_112 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_112 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_112 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_113 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_113 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_113 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_113 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_113 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_113 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_113 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_113 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_113 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_113 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_113 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_114 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_114 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_114 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_114 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_114 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_114 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_114 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_114 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_114 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_114 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_114 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_115 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_115 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_115 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_115 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_115 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_115 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_115 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_115 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_115 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_115 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_115 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_116 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_116 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_116 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_116 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_116 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_116 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_116 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_116 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_116 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_116 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_116 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_117 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_117 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_117 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_117 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_117 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_117 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_117 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_117 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_117 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_117 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_117 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_118 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_118 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_118 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_118 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_118 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_118 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_118 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_118 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_118 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_118 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_118 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_119 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_119 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_119 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_119 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_119 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_119 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_119 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_119 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_119 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_119 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_119 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_120 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_120 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_120 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_120 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_120 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_120 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_120 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_120 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_120 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_120 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_120 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_121 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_121 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_121 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_121 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_121 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_121 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_121 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_121 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_121 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_121 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_121 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_122 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_122 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_122 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_122 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_122 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_122 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_122 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_122 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_122 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_122 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_122 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_123 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_123 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_123 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_123 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_123 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_123 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_123 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_123 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_123 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_123 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_123 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_124 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_124 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_124 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_124 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_124 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_124 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_124 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_124 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_124 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_124 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_124 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_125 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_125 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_125 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_125 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_125 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_125 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_125 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_125 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_125 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_125 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_125 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_126 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_126 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_126 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_126 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_126 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_126 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_126 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_126 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_126 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_126 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_126 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_127 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_127 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_127 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_127 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_127 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_127 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_127 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_127 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_127 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_127 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_127 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_AMPLITUDE_128 : 0|7@0+ (1,-64) [-64|63] "dBsm" Vector__XXX
+ SG_ MRR_CAN_DET_AZIMUTH_128 : 0|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_128 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_128 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_ELEVATION_128 : 0|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad" Vector__XXX
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_128 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_128 : 0|14@0+ (0.015625,0) [0|255.984375] "m" Vector__XXX
+ SG_ MRR_CAN_DET_RANGE_RATE_128 : 0|14@0+ (0.015625,-128) [-128|127.984375] "m/s" Vector__XXX
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_128 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_DET_VALID_LEVEL_128 : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_128 : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_TesterPhysicalReqCCM : 0|64@0+ (1,0) [0|1.84467E+019] "" Vector__XXX
+ SG_ MRR_TesterPhysicalResCCM : 0|64@0+ (1,0) [0|1.84467E+019] "" Vector__XXX
+ SG_ MRR_Align_Horizontal_Angle : 0|10@0+ (0.000341217840077093,-0.174532925199433) [-0.174532925199433|0.174532925199433] "Rad" Vector__XXX
+ SG_ MRR_Align_Horizontal_QF : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_Align_Horizontal_Ref : 0|10@0+ (0.000341217840077093,-0.174532925199433) [-0.174532925199433|0.174532925199433] "Rad" Vector__XXX
+ SG_ MRR_Align_Vertical_Angle : 0|10@0+ (0.000170608920038546,-0.0872664625997165) [-0.0872664625997165|0.0872664625997165] "Rad" Vector__XXX
+ SG_ MRR_Align_Vertical_QF : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_Align_Vertical_Ref : 0|10@0+ (0.000170608920038546,-0.0872664625997165) [-0.0872664625997165|0.0872664625997165] "Rad" Vector__XXX
+ SG_ MRR_Horizontal_Alignment_State : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_Horizontal_Alignment_Status : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_Vertical_Alignment_State : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_Vertical_Alignment_Status : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_COMPENSATED_SIGNALS_USED : 0|2@0+ (1,0) [0|2] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED_ECHO : 0|14@0+ (0.01,0) [0|163.83] "m/s" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE_ECHO : 0|13@0+ (0.03125,-128) [-128|127.96875] "deg/s" Vector__XXX
+ SG_ MRR_CAN_LOOK_ID : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_LOOK_INDEX : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_NUMBER_OF_DET : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_MRR_CAN_SCAN_INDEX : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_DOPPLER_COVERAGE : 0|8@0+ (1,-128) [-128|127] "m/s" Vector__XXX
+ SG_ MRR_CAN_RANGE_COVERAGE : 0|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ MRR_CAN_SENSOR_FOV_HOR : 0|8@0+ (1,0) [0|255] "deg" Vector__XXX
+ SG_ MRR_CAN_SENSOR_FOV_VER : 0|8@0+ (1,0) [0|255] "deg" Vector__XXX
+ SG_ MRR_CAN_SENSOR_HANGLE_OFFSET : 0|8@0+ (0.0625,-8) [-8|7.9375] "deg" Vector__XXX
+ SG_ MRR_CAN_SENSOR_LAT_OFFSET : 0|16@0+ (0.01,0) [0|655.35] "cm" Vector__XXX
+ SG_ MRR_CAN_SENSOR_LONG_OFFSET : 0|16@0+ (0.01,0) [0|655.35] "cm" Vector__XXX
+ SG_ MRR_CAN_SENSOR_POLARITY : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SENSOR_VANGLE_OFFSET : 0|8@0+ (0.0625,-8) [-8|7.9375] "deg" Vector__XXX
+ SG_ MRR_CAN_DET_TIME_SINCE_MEAS : 0|11@0+ (0.1,0) [0|204.7] "ms" Vector__XXX
+ SG_ MRR_CAN_SENSOR_TIME_STAMP : 0|24@0+ (0.1,0) [0|429496729.5] "us" Vector__XXX
+ SG_ MRR_CAN_FA_VERT_GROUND_OFFSET : 0|8@0- (0.0625,0) [-8|7.9375] "" Vector__XXX
+ SG_ MRR_CAN_FA_VERT_LOWER_LIMIT : 0|8@0- (0.0625,0) [-8|7.9375] "" Vector__XXX
+ SG_ MRR_CAN_FA_VERT_UPPER_LIMIT : 0|8@0- (0.0625,0) [-8|7.9375] "" Vector__XXX
+ SG_ MRR_CAN_LROS_CARCFGENGINE_FORD : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_LROS_CARCFGVEHTYPE_FORD : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_k_radar_azimuth_polarity : 0|2@0- (1,0) [-2|1] "" Vector__XXX
+ SG_ MRR_CAN_GLOBALREALTIME_FORD : 0|32@0+ (0.1,0) [0|429496729.5] "s" Vector__XXX
+ SG_ MRR_CAN_VEH_SPEED_FORD : 0|16@0+ (0.01,0) [0|655.33] "kph" Vector__XXX
+ SG_ MRR_CAN_VEH_YAW_FORD : 0|16@0+ (0.0002,-6.5) [-6.5|6.6066] "rad/s" Vector__XXX
+ SG_ MRR_CAN_ODOMETER_FORD : 0|24@0+ (1,0) [0|16777214] "km" Vector__XXX
+ SG_ MRR_CAN_AMBIENT_TEMP : 0|10@0+ (0.25,-128) [-128|127.75] "C" Vector__XXX
+ SG_ MRR_CAN_CRUISE_STATUS_FORD : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_CAN_GEAR_POSITION : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_IGN_STATUS : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_POWER_MOTIVE_FORD : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_POWER_SUPP_FORD : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_CAN_VEH_BATT_VOLT : 0|8@0+ (0.0625,0) [0|15.875] "V" Vector__XXX
+ SG_ MRR_VIN_part1 : 0|64@0+ (1,0) [0|1.84467E+019] "" Vector__XXX
+ SG_ MRR_VIN_part2 : 0|64@0+ (1,0) [0|1.84467E+019] "" Vector__XXX
+ SG_ MRR_VIN_part3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ADAS_TimeSync_Timer_Count : 0|24@0+ (1,0) [0|16777215] "us" Vector__XXX
+ SG_ ADAS_TimeSync_Trig_Counter : 0|16@0+ (1,0) [0|65535] "us" Vector__XXX
+ SG_ MRR_CAN_PCAN_MAJOR_MRR : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_PCAN_MINOR_MRR : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_USC_SECTION_COMPTBLITY : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_BLKG_SIDELOBE_FILTER_VAL : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_COMPLETE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_MNR : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_SIDELOBE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_HRZNTL_ALIGN_UPDATES_Nbr : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_INTERFERENCE_TYPE : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_ALIGN_INCOMPLETE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_ALIGN_NOT_START : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_ALIGN_OUT_RANGE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_CommonModeFailure : 0|2@0+ (1,0) [0|3] "NA" Vector__XXX
+ SG_ MRR_CAN_RADAR_EXT_COND_NOK : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_NOT_OP : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_OVERHEAT_ERROR : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RECOMMEND_UNCONVERGE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VRTCL_ALIGN_UPDATES_Nbr : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_XCVR_OPERATIONAL : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SEQUENCE_NUMBER : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_SERIAL_NUMBER : 0|40@0+ (1,0) [0|1099511627800] "" Vector__XXX
+ SG_ MRR_CAN_PBL_Field_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_PBL_Promote_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_PBL_Release_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_SW_Field : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_SW_Field_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_SW_Promote_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_SW_Release_Revision : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_1_25_V : 0|8@0+ (0.08,0) [0|20.4] "V" Vector__XXX
+ SG_ MRR_CAN_3_3_V_DAC : 0|8@0+ (0.08,0) [0|20.4] "V" Vector__XXX
+ SG_ MRR_CAN_3_3_V_RAW : 0|8@0+ (0.08,0) [0|20.4] "V" Vector__XXX
+ SG_ MRR_CAN_5_V : 0|8@0+ (0.08,0) [0|20.4] "V" Vector__XXX
+ SG_ MRR_CAN_BATT_VOLTS : 0|8@0+ (0.08,0) [0|20.4] "V" Vector__XXX
+ SG_ MRR_CAN_MMIC_Temp1 : 0|8@0+ (1,-50) [-50|205] "C" Vector__XXX
+ SG_ MRR_CAN_Processor_Temp1 : 0|8@0+ (1,-50) [-50|205] "C" Vector__XXX
+ SG_ MRR_CAN_Processor_Thermistor : 0|8@0+ (1,-50) [-50|205] "C" Vector__XXX
+ SG_ MRR_CAN_FAC_ALIGN_SAMP_REQ : 0|7@0+ (1,0) [0|127] "" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_MTG_OFFSET : 0|8@0+ (1,-128) [-128|127] "cm" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_MTG_SPACE_HOR : 0|8@0+ (1,-128) [-128|127] "cm" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_MTG_SPACE_VER : 0|8@0+ (1,-128) [-128|127] "cm" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_RANGE_1 : 0|8@0+ (0.0625,0) [0|15.9375] "m" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_RANGE_M2T : 0|8@0+ (0.0625,0) [0|15.9375] "m" Vector__XXX
+ SG_ MRR_CAN_FAC_TGT_RANGE_R2M : 0|8@0+ (0.0625,0) [0|15.9375] "m" Vector__XXX
+ SG_ MRR_CAN_BEAMWIDTH_VERT : 0|7@0+ (0.125,0) [0|15.875] "deg" Vector__XXX
+ SG_ MRR_CAN_FAC_ALIGN_MAX_NT : 0|7@0+ (1,0) [0|127] "" Vector__XXX
+ SG_ MRR_CAN_FAC_PLATE_POSITIONS_TOTL : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_FAC_PLATE_TILT_ANGLE : 0|6@0+ (0.25,-8) [-8|7.75] "deg" Vector__XXX
+ SG_ MRR_CAN_FAC_PLATE_TILT_NUMBER : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_LATERAL_MOUNTING_OFFSET : 0|8@0+ (0.015625,-2) [-2|1.984375] "" Vector__XXX
+ SG_ MRR_CAN_LONG_MOUNTING_OFFSET : 0|8@0+ (0.015625,-2) [-2|1.984375] "" Vector__XXX
+ SG_ MRR_CAN_ANGLE_MISALIGNMENT_HOR : 0|10@0+ (0.03125,-10) [-10|21.96875] "deg" Vector__XXX
+ SG_ MRR_CAN_ANGLE_MOUNTING_VOFFSET : 0|8@0+ (0.0625,-8) [-8|7.9375] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_DISABLE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_FILTER_OUTPUT : 0|4@0+ (1,0) [0|15] "dB" Vector__XXX
+ SG_ MRR_CAN_MRR_UPSIDE_DOWN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SCAN_INDEX_ACK : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_USE_ANGLE_MISALIGNMENT : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_AALIGN_AVG_CTR_TOTAL : 0|3@0+ (250,250) [250|2000] "" Vector__XXX
+ SG_ MRR_CAN_ALIGN_ENABLE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_ANGLE_MISALIGNMENT_VER : 0|10@0+ (0.03125,-10) [-10|10] "" Vector__XXX
+ SG_ MRR_CAN_ANGLE_MOUNTING_HOFFSET : 0|8@0+ (0.0625,-8) [-8|7.9375] "deg" Vector__XXX
+ SG_ MRR_CAN_AUTO_ALIGN_DISABLE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_RADAR_FOV_LR : 0|5@0+ (1,0) [0|31] "deg" Vector__XXX
+ SG_ MRR_CAN_RADAR_FOV_MR : 0|7@0+ (1,0) [0|127] "deg" Vector__XXX
+ SG_ MRR_CAN_RADAR_HEIGHT : 0|7@0+ (1,0) [0|127] "cm" Vector__XXX
+ SG_ MRR_CAN_SERV_ALIGN_TYPE : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_SERV_ALIGN_UPDATES_NEED : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_INST_MODE : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_DAY_NIGHT_STATUS : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_STEERING_ANGLE : 0|14@0+ (0.1,0) [0|1638.3] "deg" Vector__XXX
+ SG_ MRR_CAN_STEERING_ANGLE_SIGN : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_MODE : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED : 0|11@0+ (0.0625,0) [0|127.9375] "m/s" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED_DIRECTION : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_SPEED_VALIDITY : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_STAT : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEH_DRV_DIRECTION : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_WIPER_STATUS : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE : 0|12@0+ (0.0625,-128) [-128|127.9375] "deg/s" Vector__XXX
+ SG_ MRR_CAN_YAW_RATE_VALIDITY : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_BLOCKAGE_TD : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_FOUND_TARGET : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_NUMBER_OF_TRACKS_MOV : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_NUMBER_OF_TRACKS_STAT : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_CAN_TD_SCAN_COUNTER : 0|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MRR_CAN_BEAM_SHAPE_ACTUAL_LEFT : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_BEAM_SHAPE_ACTUAL_RIGHT : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_BRAKE_PEDAL : 0|2@0+ (1,0) [0|2] "" Vector__XXX
+ SG_ MRR_CAN_FCW_SENSITIVITY_LEVEL : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_HIGH_WHEEL_SLIP : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_INTF_MAJOR_VERSION : 0|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ MRR_CAN_INTF_MINOR_VERSION : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_CAN_MAIN_BEAM_INDICATION : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_REVERSE_GEAR : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_TURN_SIGNAL_STATUS : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_INDEX : 0|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_STATIONARY : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_WASHER_FRONT_CMD : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_WIPER_FRONT_CMD : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_WIPER_SPEED_INFO : 0|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MRR_CAN_STEERING_WHL_ANGLE : 0|15@0+ (0.1,-1600) [-1600|1676.7] "deg" Vector__XXX
+ SG_ MRR_CAN_STEERING_WHL_ANGLE_QF : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEHICLE_INDEX_4FA : 0|14@0+ (1,0) [0|16383] "" Vector__XXX
+ SG_ MRR_FSM_Vehicle_Velocity : 0|16@0+ (0.0078125,0) [0|511.984375] "m/s" Vector__XXX
+ SG_ MRR_FSM_Vehicle_Velocity_Valid : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_FSM_Yaw_Rate : 0|16@0- (0.0078125,0) [-75|75] "deg/s" Vector__XXX
+ SG_ MRR_FSM_Yaw_Rate_Valid : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CAN_VEH_LONG_ACCEL : 0|13@0+ (0.01,-40) [-40|41.89] "m/s^2" Vector__XXX
+ SG_ MRR_CAN_VEH_LONG_ACCEL_QF : 0|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_Yaw_Rate_Reference : 0|12@0- (0.03663,0) [-75|75] "deg/s" Vector__XXX
+ SG_ MRR_Yaw_Rate_Reference_Valid : 0|1@0+ (1,0) [0|1] "boolean" Vector__XXX
+ SG_ MRR_CAN_LROS_DrivingDirection : 0|4@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MRR_CAN_LROS_DrivingReverse : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_CcStat_D_Actl : 0|3@0+ (1,0) [0|7] "SED" Vector__XXX
+ SG_ MRR_ElPw_D_Stat : 0|3@0+ (1,0) [0|7] "SED" Vector__XXX
+ SG_ MRR_PwPckTq_D_Stat : 0|2@0+ (1,0) [0|3] "SED" Vector__XXX
+ SG_ MRR_VehOverGnd_V_Est : 0|16@0+ (0.01,0) [0|655.33] "kph" Vector__XXX
+ SG_ MRR_CAN_SPEED_FRONT_LEFT_WHEEL : 0|15@0+ (0.01,0) [0|327.67] "rad/s" Vector__XXX
+ SG_ MRR_CAN_SPEED_FRONT_RIGHT_WHEEL : 0|15@0+ (0.01,0) [0|327.67] "rad/s" Vector__XXX
+ SG_ MRR_CAN_SPEED_REAR_LEFT_WHEEL : 0|15@0+ (0.01,0) [0|327.67] "rad/s" Vector__XXX
+ SG_ MRR_CAN_SPEED_REAR_RIGHT_WHEEL : 0|15@0+ (0.01,0) [0|327.67] "rad/s" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte0 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte1 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte4 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte5 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte6 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_CMD_byte7 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte0 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte1 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte4 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte5 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte6 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_CTO_Resp_byte7 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte0 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte1 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte4 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte5 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte6 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DAC_Resp_byte7 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte0 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte1 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte4 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte5 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte6 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_CMD_byte7 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte0 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte1 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte2 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte3 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte4 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte5 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte6 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_XCP_DTO_Resp_byte7 : 0|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ MRR_v_1p25SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MRR_v_5_SupplyOutOfRange : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ New_Signal_1722 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 288 MRR_Detection_001: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_01 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_01 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_01 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_01 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_01 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_01 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_01 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_01 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_01 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_01 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_01 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 289 MRR_Detection_002: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_02 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_02 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_02 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_02 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_02 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_02 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_02 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_02 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_02 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_02 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_02 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 290 MRR_Detection_003: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_03 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_03 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_03 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_03 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_03 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_03 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_03 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_03 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_03 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_03 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_03 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 291 MRR_Detection_004: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_04 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_04 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_04 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_04 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_04 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_04 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_04 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_04 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_04 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_04 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_04 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 292 MRR_Detection_005: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_05 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_05 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_05 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_05 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_05 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_05 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_05 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_05 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_05 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_05 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_05 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 293 MRR_Detection_006: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_06 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_06 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_06 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_06 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_06 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_06 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_06 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_06 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_06 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_06 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_06 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 294 MRR_Detection_007: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_07 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_07 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_07 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_07 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_07 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_07 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_07 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_07 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_07 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_07 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_07 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 295 MRR_Detection_008: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_08 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_08 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_08 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_08 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_08 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_08 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_08 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_08 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_08 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_08 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_08 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 296 MRR_Detection_009: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_09 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_09 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_09 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_09 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_09 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_09 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_09 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_09 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_09 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_09 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_09 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 297 MRR_Detection_010: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_10 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_10 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_10 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_10 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_10 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_10 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_10 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_10 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_10 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_10 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_10 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 298 MRR_Detection_011: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_11 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_11 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_11 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_11 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_11 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_11 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_11 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_11 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_11 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_11 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_11 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 299 MRR_Detection_012: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_12 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_12 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_12 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_12 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_12 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_12 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_12 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_12 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_12 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_12 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_12 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 300 MRR_Detection_013: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_13 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_13 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_13 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_13 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_13 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_13 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_13 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_13 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_13 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_13 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_13 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 301 MRR_Detection_014: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_14 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_14 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_14 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_14 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_14 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_14 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_14 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_14 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_14 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_14 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_14 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 302 MRR_Detection_015: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_15 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_15 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_15 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_15 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_15 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_15 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_15 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_15 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_15 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_15 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_15 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+BO_ 303 MRR_Detection_016: 8 MRR
+ SG_ MRR_CAN_DET_AMPLITUDE_16 : 7|7@0+ (1,-64) [-64|63] "dBsm"  IPMA_ADAS
+ SG_ MRR_CAN_DET_AZIMUTH_16 : 47|14@0+ (0.0003834,-3.1416) [-3.1416|3.1396422] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_AZIMUTH_16 : 33|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_CONFID_ELEVATION_16 : 48|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_ELEVATION_16 : 63|7@0+ (0.002748,-0.1745) [-0.1745|0.174496] "rad"  IPMA_ADAS
+ SG_ MRR_CAN_DET_HOST_VEH_CLUTTER_16 : 49|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_16 : 31|14@0+ (0.015625,0) [0|255.984375] "m"  IPMA_ADAS
+ SG_ MRR_CAN_DET_RANGE_RATE_16 : 15|14@0+ (0.015625,-128) [-128|127.984375] "m/s"  IPMA_ADAS
+ SG_ MRR_CAN_DET_SUPER_RES_TARGET_16 : 56|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_DET_VALID_LEVEL_16 : 0|1@0+ (1,0) [0|1] ""  IPMA_ADAS
+ SG_ MRR_CAN_SCAN_INDEX_2LSB_16 : 17|2@0+ (1,0) [0|3] ""  IPMA_ADAS
+
+
+
+CM_ "CAN bus that communicates the Medium Range Radar";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_  "DBName" "Cluster";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "DBName" "Cluster";
+BA_ "GenMsgCycleTime" BO_ 288 31;
+BA_ "GenMsgSendType" BO_ 288 0;
+BA_ "VFrameFormat" BO_ 288 0;
+BA_ "GenMsgCycleTime" BO_ 289 31;
+BA_ "GenMsgSendType" BO_ 289 0;
+BA_ "VFrameFormat" BO_ 289 0;
+BA_ "GenMsgCycleTime" BO_ 290 31;
+BA_ "GenMsgSendType" BO_ 290 0;
+BA_ "VFrameFormat" BO_ 290 0;
+BA_ "GenMsgCycleTime" BO_ 291 310;
+BA_ "GenMsgSendType" BO_ 291 0;
+BA_ "VFrameFormat" BO_ 291 0;
+BA_ "GenMsgCycleTime" BO_ 292 31;
+BA_ "GenMsgSendType" BO_ 292 0;
+BA_ "VFrameFormat" BO_ 292 0;
+BA_ "GenMsgCycleTime" BO_ 293 310;
+BA_ "GenMsgSendType" BO_ 293 0;
+BA_ "VFrameFormat" BO_ 293 0;
+BA_ "GenMsgCycleTime" BO_ 294 310;
+BA_ "GenMsgSendType" BO_ 294 0;
+BA_ "VFrameFormat" BO_ 294 0;
+BA_ "GenMsgCycleTime" BO_ 295 310;
+BA_ "GenMsgSendType" BO_ 295 0;
+BA_ "VFrameFormat" BO_ 295 0;
+BA_ "GenMsgCycleTime" BO_ 296 310;
+BA_ "GenMsgSendType" BO_ 296 0;
+BA_ "VFrameFormat" BO_ 296 0;
+BA_ "GenMsgCycleTime" BO_ 297 310;
+BA_ "GenMsgSendType" BO_ 297 0;
+BA_ "VFrameFormat" BO_ 297 0;
+BA_ "GenMsgCycleTime" BO_ 298 310;
+BA_ "GenMsgSendType" BO_ 298 0;
+BA_ "VFrameFormat" BO_ 298 0;
+BA_ "GenMsgCycleTime" BO_ 299 310;
+BA_ "GenMsgSendType" BO_ 299 0;
+BA_ "VFrameFormat" BO_ 299 0;
+BA_ "GenMsgCycleTime" BO_ 300 310;
+BA_ "GenMsgSendType" BO_ 300 0;
+BA_ "VFrameFormat" BO_ 300 0;
+BA_ "GenMsgCycleTime" BO_ 301 310;
+BA_ "GenMsgSendType" BO_ 301 0;
+BA_ "VFrameFormat" BO_ 301 0;
+BA_ "GenMsgCycleTime" BO_ 302 310;
+BA_ "GenMsgSendType" BO_ 302 0;
+BA_ "VFrameFormat" BO_ 302 0;
+BA_ "GenMsgCycleTime" BO_ 303 310;
+BA_ "GenMsgSendType" BO_ 303 0;
+BA_ "VFrameFormat" BO_ 303 0;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_VEH_SPD_COMP_FACTOR 32768;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_YAW_RATE_BIAS 512;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_YAW_RATE_CALC 3200;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_17 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_17 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_17 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_18 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_18 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_18 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_19 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_19 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_19 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_20 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_20 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_20 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_21 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_21 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_21 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_22 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_22 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_22 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_23 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_23 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_23 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_24 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_24 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_24 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_25 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_25 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_25 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_26 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_26 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_26 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_27 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_27 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_27 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_28 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_28 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_28 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_29 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_29 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_29 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_30 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_30 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_30 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_31 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_31 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_31 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_32 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_32 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_32 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_33 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_33 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_33 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_34 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_34 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_34 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_35 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_35 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_35 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_36 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_36 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_36 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_37 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_37 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_37 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_38 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_38 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_38 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_39 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_39 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_39 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_40 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_40 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_40 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_41 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_41 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_41 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_42 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_42 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_42 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_43 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_43 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_43 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_44 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_44 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_44 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_45 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_45 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_45 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_46 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_46 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_46 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_47 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_47 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_47 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_48 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_48 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_48 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_49 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_49 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_49 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_50 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_50 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_50 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_51 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_51 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_51 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_52 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_52 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_52 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_53 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_53 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_53 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_54 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_54 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_54 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_55 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_55 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_55 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_56 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_56 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_56 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_57 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_57 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_57 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_58 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_58 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_58 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_59 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_59 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_59 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_60 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_60 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_60 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_61 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_61 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_61 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_62 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_62 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_62 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_63 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_63 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_63 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_64 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_64 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_64 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_65 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_65 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_65 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_66 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_66 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_66 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_67 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_67 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_67 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_68 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_68 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_68 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_69 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_69 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_69 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_70 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_70 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_70 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_71 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_71 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_71 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_72 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_72 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_72 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_73 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_73 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_73 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_74 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_74 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_74 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_75 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_75 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_75 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_76 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_76 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_76 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_77 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_77 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_77 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_78 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_78 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_78 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_79 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_79 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_79 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_80 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_80 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_80 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_81 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_81 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_81 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_82 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_82 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_82 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_83 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_83 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_83 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_84 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_84 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_84 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_85 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_85 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_85 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_86 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_86 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_86 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_87 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_87 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_87 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_88 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_88 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_88 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_89 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_89 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_89 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_90 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_90 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_90 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_91 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_91 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_91 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_92 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_92 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_92 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_93 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_93 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_93 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_94 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_94 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_94 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_95 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_95 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_95 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_96 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_96 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_96 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_97 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_97 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_97 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_98 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_98 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_98 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_99 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_99 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_99 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_100 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_100 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_100 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_101 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_101 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_101 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_102 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_102 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_102 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_103 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_103 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_103 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_104 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_104 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_104 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_105 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_105 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_105 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_106 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_106 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_106 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_107 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_107 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_107 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_108 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_108 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_108 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_109 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_109 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_109 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_110 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_110 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_110 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_111 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_111 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_111 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_112 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_112 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_112 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_113 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_113 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_113 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_114 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_114 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_114 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_115 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_115 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_115 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_116 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_116 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_116 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_117 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_117 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_117 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_118 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_118 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_118 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_119 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_119 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_119 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_120 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_120 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_120 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_121 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_121 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_121 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_122 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_122 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_122 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_123 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_123 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_123 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_124 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_124 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_124 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_125 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_125 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_125 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_126 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_126 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_126 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_127 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_127 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_127 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_AZIMUTH_128 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_ELEVATION_128 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DET_RANGE_RATE_128 8192;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_Align_Horizontal_Angle 511.5;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_Align_Horizontal_Ref 511.5;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_Align_Vertical_Angle 511.500000000001;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_Align_Vertical_Ref 511.500000000001;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_YAW_RATE_ECHO 4096;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_DOPPLER_COVERAGE 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_SENSOR_HANGLE_OFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_SENSOR_VANGLE_OFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_GLOBALREALTIME_FORD 1;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_VEH_YAW_FORD 32500;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_AMBIENT_TEMP 512;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_BLKG_SIDELOBE_FILTER_VAL 12;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_RADAR_CommonModeFailure 1;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_MMIC_Temp1 50;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_Processor_Temp1 50;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_Processor_Thermistor 50;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_FAC_TGT_MTG_OFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_FAC_TGT_MTG_SPACE_HOR 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_FAC_TGT_MTG_SPACE_VER 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_FAC_PLATE_TILT_ANGLE 32;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_LATERAL_MOUNTING_OFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_LONG_MOUNTING_OFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_ANGLE_MISALIGNMENT_HOR 320;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_ANGLE_MOUNTING_VOFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_ANGLE_MISALIGNMENT_VER 320;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_ANGLE_MOUNTING_HOFFSET 128;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_YAW_RATE 2048;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_STEERING_WHL_ANGLE 16000;
+BA_ "GenSigStartValue" SG_ 3221225472 MRR_CAN_VEH_LONG_ACCEL 4000;
+BA_ "GenSigStartValue" SG_ 288 MRR_CAN_DET_AZIMUTH_01 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 288 MRR_CAN_DET_ELEVATION_01 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 288 MRR_CAN_DET_RANGE_RATE_01 8192;
+BA_ "GenSigStartValue" SG_ 289 MRR_CAN_DET_AZIMUTH_02 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 289 MRR_CAN_DET_ELEVATION_02 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 289 MRR_CAN_DET_RANGE_RATE_02 8192;
+BA_ "GenSigStartValue" SG_ 290 MRR_CAN_DET_AZIMUTH_03 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 290 MRR_CAN_DET_ELEVATION_03 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 290 MRR_CAN_DET_RANGE_RATE_03 8192;
+BA_ "GenSigStartValue" SG_ 291 MRR_CAN_DET_AZIMUTH_04 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 291 MRR_CAN_DET_ELEVATION_04 63.136826783115;
+BA_ "GenSigStartValue" SG_ 291 MRR_CAN_DET_RANGE_RATE_04 8192;
+BA_ "GenSigStartValue" SG_ 292 MRR_CAN_DET_AZIMUTH_05 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 292 MRR_CAN_DET_ELEVATION_05 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 292 MRR_CAN_DET_RANGE_RATE_05 8192;
+BA_ "GenSigStartValue" SG_ 293 MRR_CAN_DET_AZIMUTH_06 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 293 MRR_CAN_DET_ELEVATION_06 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 293 MRR_CAN_DET_RANGE_RATE_06 8192;
+BA_ "GenSigStartValue" SG_ 294 MRR_CAN_DET_AZIMUTH_07 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 294 MRR_CAN_DET_ELEVATION_07 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 294 MRR_CAN_DET_RANGE_RATE_07 8192;
+BA_ "GenSigStartValue" SG_ 295 MRR_CAN_DET_AZIMUTH_08 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 295 MRR_CAN_DET_ELEVATION_08 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 295 MRR_CAN_DET_RANGE_RATE_08 8192;
+BA_ "GenSigStartValue" SG_ 296 MRR_CAN_DET_AZIMUTH_09 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 296 MRR_CAN_DET_ELEVATION_09 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 296 MRR_CAN_DET_RANGE_RATE_09 8192;
+BA_ "GenSigStartValue" SG_ 297 MRR_CAN_DET_AZIMUTH_10 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 297 MRR_CAN_DET_ELEVATION_10 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 297 MRR_CAN_DET_RANGE_RATE_10 8192;
+BA_ "GenSigStartValue" SG_ 298 MRR_CAN_DET_AZIMUTH_11 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 298 MRR_CAN_DET_ELEVATION_11 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 298 MRR_CAN_DET_RANGE_RATE_11 8192;
+BA_ "GenSigStartValue" SG_ 299 MRR_CAN_DET_AZIMUTH_12 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 299 MRR_CAN_DET_ELEVATION_12 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 299 MRR_CAN_DET_RANGE_RATE_12 8192;
+BA_ "GenSigStartValue" SG_ 300 MRR_CAN_DET_AZIMUTH_13 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 300 MRR_CAN_DET_ELEVATION_13 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 300 MRR_CAN_DET_RANGE_RATE_13 8192;
+BA_ "GenSigStartValue" SG_ 301 MRR_CAN_DET_AZIMUTH_14 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 301 MRR_CAN_DET_ELEVATION_14 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 301 MRR_CAN_DET_RANGE_RATE_14 8192;
+BA_ "GenSigStartValue" SG_ 302 MRR_CAN_DET_AZIMUTH_15 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 302 MRR_CAN_DET_ELEVATION_15 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 302 MRR_CAN_DET_RANGE_RATE_15 8192;
+BA_ "GenSigStartValue" SG_ 303 MRR_CAN_DET_AZIMUTH_16 8194.05320813772;
+BA_ "GenSigStartValue" SG_ 303 MRR_CAN_DET_ELEVATION_16 63.8646288209607;
+BA_ "GenSigStartValue" SG_ 303 MRR_CAN_DET_RANGE_RATE_16 8192;
+
