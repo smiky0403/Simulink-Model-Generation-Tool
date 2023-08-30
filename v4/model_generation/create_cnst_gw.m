@@ -34,6 +34,9 @@ else
     pos_idx = 1:1:length(names_blk);
 end
 
+if ischar(names_blk)
+    names_blk = {names_blk};
+end
 
 pos_x_1 = 150;
 pos_x_2 = 350;

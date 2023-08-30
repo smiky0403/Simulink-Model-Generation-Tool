@@ -7,7 +7,7 @@ function [names_blk, varargout] = get_cnsts(varargin)
 %       Mingqi Shi, mingqis qti  QM
 %
 %Created:
-%       202308-21
+%       2023-08-21
 %
 %Last modified:
 %       Mingqi Shi
@@ -77,7 +77,7 @@ if(nargin == 2 )
         for i = 1: length(paths_subsystems)
             dir = paths_subsystems{i};
             [names_sub, paths_sub] = get_cnsts(dir, 1);
-            names_blk = [names_blk; names_sub];
+            names_blk = [names_blk; names_sub]; %#ok<AGROW>
             varargout{1} = [varargout{1}; paths_sub ];
         end
 

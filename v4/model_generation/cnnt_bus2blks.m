@@ -35,6 +35,10 @@ else
     pos_idx = 1:1:length(names_blk);
 end
 
+if(ischar(names_blk))
+    names_blk = {names_blk};
+end
+
 
 for i = 1: length(names_blk)
     
